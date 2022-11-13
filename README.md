@@ -33,6 +33,8 @@ This is a program that finds people from cameras and notifies you vie Telegram
   pip install -r requirements.txt
 ```
 
+3) Change datas in config.py
+
 ## Screenshots
 
 ![1](https://user-images.githubusercontent.com/62434656/201547697-63a01724-b814-4ef5-bb4a-81ebd1705d79.jpg)
