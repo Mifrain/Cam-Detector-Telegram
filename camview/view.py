@@ -37,7 +37,7 @@ def check_cam():
                 for (x, y, w, h) in result_body:
                     cv.rectangle(img, (x, y), (x + w, y + h), color=(0, 0, 130), thickness=3)  #Обводим человека в квадрат
                 
-                next_message = datetime.utcnow() + timedelta(0, 15) #следующую картинку будем отправлять через n секунд
+                next_message = datetime.utcnow() + timedelta(0, 90) #следующую картинку будем отправлять через n секунд
                 asyncio.run(send_photo(img)) # Отправляем фотографию через бота
         
         if cv.waitKey(1):
